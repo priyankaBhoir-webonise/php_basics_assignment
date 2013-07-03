@@ -1,0 +1,13 @@
+<html>
+<body>
+	<?php	
+			echo '- This is main file <br />';
+			include 'first.php';
+			echo '- back to main file <br />';
+			include 'second.php' ;  
+			echo '- back to main file <br />';
+			echo '- end of main file<br/>' ;  
+	?>
+</body>
+</html>
+	
