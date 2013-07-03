@@ -1,0 +1,36 @@
+<!-- html code for a simple form using post method-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			get_method with php
+		</title>
+	</head>
+	<body>
+		<form action=new_post.php method=post>
+			<table align="center"  border=10>
+			<tr><td>
+			First name:<input type="text" name="fname"></tr>
+			<tr><td>			
+			Last name:<input type="text" name="lname"></tr>
+			<tr><td >
+			<input type="radio" name="sex" value="male">Male 
+			<input type="radio" name="sex" value="female">Female</tr>
+			<tr><td >Languages:
+			<input type="checkbox" name="languages" value="java">java
+			
+			<input type="checkbox" name="languages" value="c">C
+		
+			<input type="checkbox" name="languages" value="cpp">CPP</tr>
+			<tr> <td>City: (you can choose multiple cities)<br> <select name="city[]" multiple="multile">
+			<option value="pune">Pune</option>
+			<option value="mumbai">Mumbai</option>
+			<option value="delhi">Delhi</option>
+			<option value="kolkata">Kolkata</option>
+			</select></tr>
+			<tr><td>Address:
+			<textarea row=4 column=20  name="address"> </textarea>
+			<tr><td><input type="submit" name="submit_button" value="submit" >	</tr>		
+			</table>
+		</form>
+</html>
